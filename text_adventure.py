@@ -19,7 +19,7 @@ rooms = [
     "\nYou are in a dark room where you cannot find the light switch.",
     "\nYou are in a corridor, at the end of it there is another door.",
     "\nYou are inside an office, it's messy but you can still move through. On the desk you can see files and a laptop.",
-    "\nYou are in a bathroom, which has a window on the right side of the room."
+    "\nYou are in a bathroom, which has a broken window on the right side of the room."
 ]
 
 # creating variable to save position
@@ -76,7 +76,7 @@ while(not game_over):
     elif(position == 3 and move == 1): # end game situation
         position = 4
         print(rooms[position])
-        print("\nYou complete the game!\n")
+        print("\nYou completed the game!\n")
         game_over = True
     
     # door choice
